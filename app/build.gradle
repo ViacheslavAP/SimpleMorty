@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'ru.example.myapplication'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "ru.example.myapplication"
@@ -53,4 +53,6 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.7.2'
     //picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+    //Moshi
+    implementation'com.squareup.moshi:moshi-kotlin:1.12.0'
 }
